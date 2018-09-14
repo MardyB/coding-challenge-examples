@@ -1,0 +1,28 @@
+.pagination {
+  display: inline-block;
+  -webkit-text-fill-color: black;
+  position: relative;
+  left: 45%;
+}
+
+.pagination li {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.activeLink {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.orderButton {
+  display: flex;
+  margin-bottom: 50px;
+  position: static;
+  margin-left: 92%;
+  outline: none;
+}

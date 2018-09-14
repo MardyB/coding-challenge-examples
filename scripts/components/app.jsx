@@ -1,10 +1,10 @@
 import React from 'react';
+import Grid from '../components/grid/Grid';
 
 const App = () => (
   <main className="content">
     <div className="wrapper">
-      <div className="logo" />
-      <p>Hello World</p>
+      <Grid />
     </div>
   </main>
 );
